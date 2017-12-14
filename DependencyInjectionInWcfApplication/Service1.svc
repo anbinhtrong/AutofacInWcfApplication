@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DependencyInjectionInWcfApplication.Service1, DependencyInjectionInWcfApplication" 
+    Factory="DependencyInjectionInWcfApplication.ServiceHostFactory, DependencyInjectionInWcfApplication" CodeBehind="Service1.svc.cs" %>
