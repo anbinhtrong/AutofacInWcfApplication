@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.ServiceModel;
-using System.Web;
 using Autofac;
 using Autofac.Integration.Wcf;
 
-namespace DependencyInjectionInWcfApplication
+namespace DependencyInjectionInWcfApplication.Startup
 {
     public class ServiceHostFactory : AutofacHostFactory
     {
